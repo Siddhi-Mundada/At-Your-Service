@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<style >
+body{
+  background-image: url("images/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+</style>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" type="text/css" href="csspages/contact.css">
+    <link rel="stylesheet" type="text/css" href="csspages/boot-transit-contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>   
+    
+   <div>
+       <div>
+
+       </div>
+   </div>
+    <nav class="navbar">
+        <div class="logo"><img src="images/logo.png" height="105" width="135" ></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-items">
+            <ul>
+                <li><a href="homepage.html" class="nav-links">Home</a></li>
+                <li><a href="aboutpage.html" class="nav-links">About</a></li>
+                <li><a href="vollog.php" class="nav-links">Volunteer Login</a></li>
+                <li><a href="userlogin.php" class="nav-links">Customer Login</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    </nav>
+    
+    <div class="wrapper">
+        <div class="left-side" data-aos="flip-right" >
+            <p style="font-size: 40px; font-weight: 100;" data-aos="fade-right">Contact Us</p>
+            <p style="font-weight: 900;" data-aos="fade-right">If you have any issue feel free to contact us.</p>
+        </div>
+        <div class="right-side" data-aos="flip-left">
+            <div data-aos="fade-left">
+            <ul>
+                <li><p style="font-weight: 1000;">For Volunteer: <br> Phone : +91 - 888 777 6666 <br> Email: vol@gmail.com</p></li>
+            </ul>
+            <ul>
+                <li><p style="font-weight: 1000;">For Customer: <br> Phone : +91 - 888 666 4444 <br> Email: cust@gmail.com</p></li>
+            </ul>
+            <ul>
+                <li><p style="font-weight: 1000;">You could also reach us at: <br> Phone : +91 - 888 555 1111 <br> Email: backup@gmail.com</p></li>
+            </ul>
+            </div>
+            <div data-aos="fade-up">
+            <img class="insta" src="images/insta.png">
+            
+            <img class="tweet" src="images/twitter.png">
+            
+            <img class="facebook" src="images/facebook.png">
+            </div>    
+                
+        </div>
+        
+    </div>
+
+    <p class="volun">If you have issue with Volunteers</p>
+    <p class="web">If you have issue with this website</p>
+    
+    
+
+    <div class="volunteerform" id="volunteerform" data-aos="fade-down">
+        <form action="contact.html" method="POST">
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+        
+            <input type="text" id="emailid" name="email" placeholder="Your Email-Id.."><br><br>
+            
+            <input type="text" id="volid" name="volunteerid" placeholder="UserId of the volunteer.."><br><br>
+            
+            <input type="text" id="custid" name="yourid" placeholder="Your Id.."><br><br>
+        
+            <label for="feedback">Your Feedback</label><br>
+            <textarea>What problem have you faced?</textarea>
+          
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+    <div class="adminform" id="adminform" data-aos="fade-down">
+        <form action="contact.html" method="POST">
+            <input type="text" id="fname1" name="firstname1" placeholder="Your name.."><br><br>
+        
+            <input type="text" id="emailid1" name="email1" placeholder="Your Email-Id.."><br><br>
+        
+            <input type="text" id="custid1" name="yourid1" placeholder="Your Id.."><br><br>
+        
+            <label for="feedback1">Your Feedback</label><br>
+            <textarea>Type your feedback here</textarea>
+          
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+    <script src="javapages/contact.js"></script>
+
+    <div class="footer">
+        <div class="gettoknowus">
+            <p>Get To Know Us</p>
+            <div class="get-content">
+                <ul>
+                    <a href="aboutpage.html"><li>About Us</li></a><br>
+                    <a href="volreg.php"><li>Volunteer with Us</li></a><br>
+                    <a><li>Guidlines for Volunteers</li></a><br>
+                    <a><li>Guildlines for customers</li></a><br>
+                </ul>
+            </div>
+        </div>
+        <div class="contactus">
+            <p>Contact Us</p>
+            <div class="contact-content">
+                <ul>
+                    <a href="aboutpage.html"><li>About Us</li></a><br>
+                    <a href="volreg.php"><li>Volunteer with Us</li></a><br>
+                    <a><li>Guidlines for Volunteers</li></a><br>
+                    <a><li>Guildlines for customers</li></a><br>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="social-info">
+            <ul>
+                <li>For Instagram : <a href="#"><img class="insta" src="images/insta.png" width="68" height="58"></a></li>
+                <li>For Twitter : <a href="#"><img class="insta" src="images/twitter.png" width="68" height="58"></a></li>
+                <li>For Facebook : <a href="#"><img class="insta" src="images/facebook.png" width="68" height="58"></a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <script src="javapages/boot-transit.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>        
+            AOS.init({
+            offset: 200,
+            duration: 1200,
+
+            });
+        </script>
+
+</body>
+</html>
