@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+body {
+    background-image: url("../images/about.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+  .square {
+    height: 11%;
+    width: 10%;
+  }
+  .square:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+  }
+  
+  .square:hover {
+    color: rgb(235, 202, 95);
+    box-shadow: 0 2px 15px rgb(160, 213, 235);
+    text-shadow: 0 2px 15px rgb(235, 202, 95);
+  }
+  .about{
+    cursor: pointer;
+       position: absolute;
+       left: 65%;
+       top: 3.5%;
+       display: inline-block;
+       padding: 1% 2%;
+       border-radius: 2em;
+       text-decoration: none;
+       font-family: sans-serif;
+       color: white;
+       background-color: rgba(247, 220, 146, 0.918);
+       text-align: center;
+       transition: all 0.2s ;
+       font-weight: 300;
+  }
+  .login{
+    cursor: pointer;
+    position: absolute;
+       left: 78%;
+       top: 3.5%;
+       display: inline-block;
+       padding: 1% 2%;
+       border-radius: 2em;
+       text-decoration: none;
+       font-family: sans-serif;
+       color: white;
+       background-color: rgba(247, 220, 146, 0.918);
+       text-align: center;
+       transition: all 0.2s ;
+       font-weight: 300;
+  }
+  .contact{
+    cursor: pointer;
+    position: absolute;
+       left: 89%;
+       top: 3.5%;
+       display: inline-block;
+       padding: 1% 2%;
+       border-radius: 2em;
+       text-decoration: none;
+       font-family: sans-serif;
+       color: white;
+       background-color: rgba(247, 220, 146, 0.918);
+       text-align: center;
+       transition: all 0.2s ;
+       font-weight: 300;
+  }
+    
+    .about:hover{
+        background-color: rgba(233, 193, 83, 0.918);
+    }     
+    .login:hover{
+      background-color: rgba(233, 193, 83, 0.918);
+    }    
+    .contact:hover{
+      background-color: rgba(233, 193, 83, 0.918);
+    }       
+    .about-page-info{
+      position: absolute;
+      top: 17%;
+      left: 11%;
+      text-align: center;
+      font-size:1.7vw;
+      color: rgb(0, 0, 0);
+      font-family: 'Pompiere', cursive;
+
+    }
+
+    .logo{
+      width:60%;
+      height:80%;
+      position: absolute;
+      left:17%;
+      top: 10%;
+      opacity: 0.5;
+    }
+    .container2 {
+      width: 30%;
+      min-height: 30vh;
+    }
+    .image {
+      perspective: 3000px;
+      width: 10%;
+      position: absolute;
+      left: 13%;
+      top:95%;
+      transform: translate(-70%, -70%);
+      transform-style: preserve-3d;
+    }
+    .image img {
+      border-radius: 10%;
+      transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+      box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+      transition: all .4s;
+      transform-style: preserve-3d;
+      width:150%;
+    }
+    .image:hover img {
+      cursor: pointer;
+      transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+    }
+    
+    .admin-info{
+      font-size:1.5vw;
+      position: absolute;
+      top: 130%;
+      color: whitesmoke;
+    }
+    .container{
+      position: absolute;
+      top:145%;
+      text-align: center;
+    }
+    .centered{
+      position: absolute;
+      top:45%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.5vw;
+    }
+    .footer{
+      position: absolute;
+      top: 202%;
+      height:45%;
+      width: 100%;
+      opacity: 0.6;
+    }
+
+    .knowus-heading{
+        color: white;
+        font-size: 2.4vh;
+
+    }
+    .knowus-subclass{
+      color: white;
+      font-size: 2vh;
+      
+    }
+    .knowus-subclass:hover{
+      cursor: pointer;
+    }
+
+    @media only screen and (max-width:620px){
+        .about{
+            display: block;
+            margin: 0.2em auto;
+        }
+        .contact{
+          display: block;
+          margin: 0.2em auto;
+        }
+        .login{
+          display: block;
+          margin: 0.2em auto;
+        }
+        .about-page-info{
+          display: block;
+          font-size:15px;
+        }
+        .image{
+          position: absolute;
+          top:113%;
+          left:15%;
+        }
+        .admin-info{
+          position: relative;
+          top: 133%;
+          font-size:11px;
+        }
+        .container{
+          position: absolute;
+          top:150%;
+          width:90%;
+          text-align: center;
+        }
+        .centered{
+          position: absolute;
+          top:45%;
+          left:50%;
+          transform: translate(-50%, -50%);
+          font-size: 10px;
+        }
+       
+    }
+
+
+   
+    

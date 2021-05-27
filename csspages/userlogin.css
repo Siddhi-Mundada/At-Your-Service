@@ -1,0 +1,152 @@
+body {
+    background-image: url("../images/phpback/b15.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+height: 100vh
+}
+
+.card {
+width: 100%;
+padding: 30px;
+box-shadow: 0 0 15px grey;
+}
+
+.form {
+padding: 20px
+}
+
+.form-control {
+height: 50px;
+background-color: #eee
+}
+
+.form-control:focus {
+color: #495057;
+background-color: #fff;
+border-color: #f50057;
+outline: 0;
+box-shadow: none;
+background-color: #eee
+}
+
+.inputbox {
+margin-bottom: 15px
+}
+
+.register {
+width: 200px;
+height: 51px;
+background-color: #000;
+border-color: #000;
+}
+
+.home {
+width: 200px;
+height: 51px;
+color: #000;
+background-color: #fff;
+border-color: #000;
+}
+
+.home:hover .register:hover {
+width: 200px;
+height: 51px;
+background-color: #f50057;
+border-color: #f50057
+}
+
+.login {
+color: #000;
+text-decoration: none
+}
+
+.login:hover {
+color: #f50057;
+text-decoration: none
+}
+
+.form-check-input:checked {
+background-color: #f50057;
+border-color: #f50057
+}
+
+
+  
+  
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+  }
+  
+  .dropup {
+    position: relative;
+    display: inline-block;
+    margin-right: -2rem;
+    margin-left: 27rem;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  }
+  
+  .dropup-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .dropup-content a:hover {background-color: #ccc}
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .dropup:hover .dropbtn {
+    background-color: #2980B9;
+  }
+
+  .footer{
+    background: rgb(56, 55, 55);
+    height: fit-content;
+}
+.footer .gettoknowus, .footer .contactus, .footer .social-info{
+    display: inline-block;
+    padding-left: 10em;
+}
+.footer .gettoknowus ul li, .footer .contactus ul li{
+    list-style: none;
+    margin-left: -2em;
+    font-family: 'Chakra Petch', sans-serif;   
+}
+.footer .gettoknowus ul a, .footer .contactus ul a{
+    text-decoration: none;
+    color: lightpink;
+}
+.footer .gettoknowus p, .footer .contactus p{
+    font-size: 30px;
+    color: darkgrey;
+    font-weight: 900;
+    font-family:'Josefin Slab', serif;
+}
+.footer .social-info ul li{
+    display: inline-block;
+    padding-left: 1em;
+    color: white;
+}
+.footer .social-info ul li img:hover{
+    cursor: pointer;
+}

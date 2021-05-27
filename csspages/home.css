@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+.home-info{
+  position: absolute;
+  top: 12%;
+  left: 75%;
+  color: wheat;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.container{
+  height: 28%;
+  width: 100%;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  opacity: 0.8;
+}
+.container p{
+  text-align: center;
+  position: relative;
+  margin-top: 3em;
+  color: aliceblue;
+  font-size: 20px;
+}
+.container button{
+  text-align: center;
+  position: relative;
+  border: 0.3px solid black;
+  margin-top: 2em;
+  margin-left: 45%;
+  background: none;
+  color: beige;
+}
+.square2{
+  height: 60%;
+  width: 70%;
+  position: absolute;
+  top: 160%;
+  left: 30%;
+  transition: ease-in 2s;
+  transition-duration: 3s;
+  transition-property: all;
+  color: bisque;
+
+}
+.container2 p{
+  text-align: center;
+  position: relative;
+  margin-top: 6em;
+  font-size: 20px;
+  opacity: 1;
+}
+.footer{
+  position: absolute;
+  top: 240%;
+  left: 0;
+}
+.footer img{
+  width: 410%;
+  height: 20em;
+}
+
+.heads p {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.heads2 p {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navigate_vol{
+  border: 0.5px solid rgb(26, 25, 25);
+  border-radius: 10%;
+  width: 10%;
+  height: 25%;
+}
+.navigate_vol:hover{
+  cursor: pointer;
+  background-color: rgb(245, 231, 206);
+  color: #000;
+}
+
+.heads:hover{
+  cursor: pointer;
+}
+.heads2:hover{
+  cursor: pointer;
+}
+
+.about-web{
+  position: relative;
+  top: 3em;
+   
+}
+.background{
+  background-color:none;
+  position: relative;
+  width: 30%;
+  left: 5%;
+  text-align:justify;
+  color: lightgray;
+}
+.background p{
+  font-family: 'Pompiere', 'cursive';
+  font-size: 27px;
+}
+@media screen and (max-width: 900px){
+  .about-web{
+    top:10em;
+    float: left;
+    width: 150%;
+    font-size: 12px;
+  }
+  
+  .up-cards ul li img,.down-cards ul li img {
+    width: 6em;
+  }
+  
+  .up-cards li:nth-child(2), .down-cards li:nth-child(2){
+    transform:rotate(-3deg);
+    margin-top: 5em;
+  }  
+  .home-info{
+    font-size: 10px;
+  }
+  
+  .container button{
+    text-align: center;
+    position: relative;
+    margin-top: 2em;
+    margin-left: 35%;
+    width: fit-content;
+  }
+  
+  .heads {
+    font-size: 10px;
+    color: white;
+  }
+  .heads2{
+    position: relative;
+    margin-top: 27%;
+    left: -40%;
+  }
+}
+
+@media screen and (max-width: 620px){
+  li img{
+    width: 5em;
+  }  
+}
+
